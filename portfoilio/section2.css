@@ -1,0 +1,52 @@
+.secondSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: rgb(140, 71, 204);
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  height: 40em;
+  margin: 6em 0;
+  border-radius: 10em;
+  opacity: 90%;
+  filter: drop-shadow(0px 0px 200px rgb(140, 71, 204));
+  transition: 0.2s ease-out;
+  align-items: center;
+}
+
+.card:hover {
+  background-color: #3A3C55;
+}
+
+.card div {
+  width: 50%;
+}
+
+.rightlogo {
+  width: 90%;
+  display: flex;
+  position: relative;
+}
+
+.topic1 {
+  position: relative;
+  left: 3em;
+  font-size: 1.9rem;
+  right: .1em;
+}
+
+.card img.photo {
+  position: relative;
+  right: 0em;
+  transition: .6s ease-in-out;
+}
+
+.card:hover img.photo {
+  right: -05em;
+  opacity: 100%;
+}
